@@ -10,18 +10,48 @@ import com.qualcomm.ftcrobotcontroller.opmodes.TankDrive;
 
 public class BellsAndWhistles extends OpMode {
 
+    float i;
+
     @Override
-    public void init(){
+    public void init() {
+
+
+    }
+
+    @Override
+    public void loop() {
+
+        boolean rBump = gamepad1.left_bumper;
+
+        if (rBump == true){
+
+            i += i;
+
+            if ( i % 2 == 0){
+
+                class A extends ArcadeDrive {
+
+
+
+                }
+
+            }
+
+            else {
+
+                class A extends TankDrive {
+
+
+                }
+            }
+
+        }
+
+        else{
 
 
         }
 
-    @Override
-    public void loop(){
-
-        boolean rBump = gamepad1.left_bumper;
-
-        if (rBump == true) ;
 
     }
 
