@@ -8,10 +8,10 @@ import com.qualcomm.robotcore.util.Range;
  * Created on 10/1/2016.
  */
 
-public abstract class ArcadeDrive extends OpMode {
+class ArcadeDrive extends OpMode {
 
-    DcMotor leftMotor;
-    DcMotor rightMotor;
+    private DcMotor leftMotor;
+    private DcMotor rightMotor;
 
     @Override
     public void init(){
