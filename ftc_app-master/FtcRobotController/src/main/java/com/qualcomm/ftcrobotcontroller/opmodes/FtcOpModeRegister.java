@@ -63,8 +63,8 @@ public class FtcOpModeRegister implements OpModeRegister {
      * @see com.qualcomm.robotcore.eventloop.opmode.Autonomous
      */
     public void register(OpModeManager manager) {
-        manager.register("TankTeleOp", TankDrive.class);
-        manager.register("ArcadeTeleOp", ArcadeDrive.class);
+        manager.register("TankDrive", TankDrive.class);
+        manager.register("ArcadeDrive", ArcadeDrive.class);
         /**
          * Register OpModes implemented in the Blocks visual programming language.
          */
